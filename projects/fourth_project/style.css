@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  background: url(../fourth_project/images/anand.jpg);
+  background-size: cover;
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.text {
+  font-size: 50px;
+  color: white;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
+* {
+  box-sizing: border-box;
+}
+/*body {
+  font-family: "Lato", sans-serif;
+  background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin:0;
+
+.bg {
+  background: url(https://images.unsplash.com/photo-1610024062303-e355e94c7a8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80);
+  height: 400vh;
+  width: 300vh;
+  background-position-x: fixed;
+  z-index: -1;
+  filter: blur(30px);
+}
+.loading-text {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  top: 300px;
+  left: 600px;
+}
+*/
