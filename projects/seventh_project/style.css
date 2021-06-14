@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+html {
+  font-size: 55%;
+  overflow-x: hidden;
+}
+
+.arrival .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  width: 85%;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+
+.arrival .box-container .box {
+  flex: 1 1 30rem;
+  background: white;
+  overflow: hidden;
+  position: relative;
+  margin: 1rem 2rem;
+}
+
+.arrival .box-container .box .image {
+  height: 20rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.arrival .box-container .box .image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrival .box-container .box .info h3 {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.arrival .box-container .box .info .subInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.arrival .box-container .box .info .subInfo .price {
+  color: black;
+  font-size: 2rem;
+}
+
+.arrival .box-container .box .info p {
+  color: #333;
+  width: 40rem;
+  font-size: 14px;
+  padding: 2rem 0;
+}
+.arrival .box-container .box .info .content .btn {
+  margin-left: 1rem;
+  border-radius: 10px;
+  border-color: #ff3300;
+  color: blue;
+  padding: 4px;
+  cursor: pointer;
+}
